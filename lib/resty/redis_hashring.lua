@@ -2,7 +2,7 @@
 -- Copyright (C) yunfengmeng
 
 local redis        = require "resty.redis"
-local hashring     = require "system.library.hashring"
+local hashring     = require "resty.hashring"
 local concat       = table.concat
 local insert       = table.insert
 local type         = type
